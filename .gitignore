@@ -1,0 +1,8 @@
+venv
+*.pyc
+.DS_Store
+.env
+.idea
+test.ipynb
+templates
+static
