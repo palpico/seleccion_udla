@@ -151,6 +151,7 @@ app = Dash(__name__,
            suppress_callback_exceptions=True,
            external_stylesheets=external_stylesheets
            )
+server = app.server
 
 app.layout = html.Div([
     html.H1('Seccion 4', style={'text-align': 'center', 'width': '100%', 'color': '#98002E'}),
@@ -222,4 +223,4 @@ def show_mid(n_clicks, arg_state):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server()
